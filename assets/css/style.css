@@ -1,0 +1,399 @@
+*{
+    font-family: Roboto;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ebebeb;
+    margin: 0;
+}
+.main-header{
+    background-color: #EAC926;
+    padding: 20px;
+}
+.hamburguer-buttom{
+    background-color: #03264C;
+    color: #ffffff;
+    display: block;
+    max-width: 50px;
+    text-align: center;
+    padding: 15px 0;
+    border-radius: 8px;
+    font-size: 18px;
+    margin: auto;
+}
+.logo{
+    width: 200px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.copy-header{
+    font-weight: 400;
+    text-align: center;
+}
+
+
+.main-navbar{
+    display: none;
+}
+
+.main-navbar ul{
+    list-style: none;
+    margin: 0;
+    padding:0;
+}
+
+.main-container{
+    width: 90vw;
+    margin: auto;
+    
+}
+
+.main-navbar a{
+    color: #222222;
+    text-decoration: none;
+}
+
+
+.item-wrapper{
+    display: flex;
+    flex-wrap: wrap;   
+    flex: 1 1 100%; 
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.item-li{
+    width: 100%;
+    margin: 10px;
+    background-color:#ffffff;
+    border-radius: 10px 10px 0 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+    
+    
+}
+.item-image{
+    position:relative;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 10px;
+    
+    
+}
+
+.item-image img{
+    width: 90%;
+}
+
+.item-icon{
+    position: absolute;
+    left:80%;
+    bottom:-15px;
+    width: 30px;
+    height: 30px;
+    padding: 3px;
+    border: 1px solid #39b54a;
+    background-color:#ffffff;
+    border-radius: 40px;
+    
+}
+
+.item-icon i{
+    vertical-align: middle;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.item-content {
+    background-color: #ffffff;
+    border-top: 1px #f2f2f2 solid;
+    padding: 10px;
+}
+
+.item-price{
+    
+    font-weight: 300;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.item-offer{
+    font-size: 13px;
+    padding: 5px;
+}
+
+.item-description{
+    font-size: 12px;
+    padding: 5px;
+}
+
+.color-text-celeste{
+    color:#1259c3;
+}
+
+.color-text-gris-oscuro{
+    color:#666666;
+}
+
+.color-text-gris-claro{
+    color:#ebebeb;
+}
+.color-text-verde{
+    color:#39b54a;
+}
+
+
+
+
+/* Formulario de Registro y Login */
+.form-register{
+    flex: 0 0 50%;
+    margin: 30px;
+    background-color: #ffffff;
+    position: relative;
+    -webkit-box-shadow: 10px 10px 29px -17px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 29px -17px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 29px -17px rgba(0,0,0,0.75);
+
+}
+.login{
+    width: 50%;
+}
+.form-register header{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #333333;
+    color: #ffffff;
+    padding: 1.5rem;
+    
+}
+
+.form-register header > span{
+    font-size: 2rem;
+    overflow: hidden;
+    text-align: center;
+    padding: 2rem;
+    text-transform: uppercase;
+    
+}
+.form-register header > i{
+    
+    font-size: 6rem;
+    
+}
+.form-register form{
+    
+    padding: 0.8rem;
+    background-color: #f1f1f1;
+    
+}
+.row{
+    display: block;
+}
+.col-md-6{
+    width: 100%;
+}
+.col-md-12{
+    width: 100%;
+}
+
+.categorias-interes{
+    display: block;
+    list-style: none;
+}
+.categorias-interes li{
+    display: block; 
+    text-align: center;
+    
+}
+.form-register label, 
+.form-register input:not([type='submit'],[type='reset'],[type='file']){
+    display: block;
+    width: 90%;
+    margin-left: 8px;
+    margin-bottom: 5px;
+
+}
+
+.form-register select {
+    display: block;
+    width: 90%;
+    margin-left: 8px;
+    margin-bottom: 5px;
+    height: 30px;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    border-radius: 5px;
+    font-family: Roboto;
+
+}
+.form-register label{
+    padding: 5px;
+}
+                    
+.form-register h3{
+    margin-left: 8px;
+}
+.form-register  input:not([type='submit'],[type='reset'],[type='file']){
+    border-radius: 5px;
+    height: 30px;
+    border: 1px solid #000000;
+}
+
+.form-register input:is([type=file]){
+    border-radius: 5px;
+    height: 30px;
+    width: 90%;
+    margin-left: 8px;
+    margin-bottom: 5px;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+}
+
+.form-register input:is([type=submit],[type=reset]){
+    border: 0;
+    width: 90%;
+    background-color: #333333;
+    padding: 5px;
+    margin: 10px;
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.login{
+    width: 100vw!important;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    background-color: #666666;
+    padding: 10px;
+    color:#ffffff;
+    font-size: 14px;
+
+}
+footer p{
+    font-size: 0.8rem;
+
+}
+footer .footer-container{
+    width: 90vw;
+    margin: auto;
+    text-align: center;
+}
+
+@media (min-width:768px){
+    .main-header-top-bar{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .copy-header{
+        max-width: 350px;
+        text-align: right;
+    }
+    .hamburguer-buttom{
+        display: none;
+    }
+    .main-navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+    .main-navbar ul{
+        display: flex;
+    }
+    .main-navbar li{
+        margin: 0 5px;
+    }
+
+    .main-container{
+        width: 80vw;
+        margin: auto;
+    }
+    .item-li{
+        width: 40%;
+    }
+
+    .login{
+        width: 60vw!important;
+    }
+    
+    
+}
+
+@media (min-width:1200px){
+    .logo{
+        max-width: 200px;
+    }
+    
+    .main-header-top-bar, .main-navbar{
+        max-width: 1200px;
+        margin: auto;
+    }
+    .main-header-top-bar{
+        align-items: center;
+    }
+    .main-navbar{
+        margin-top: 20px;
+    }
+    .main-navbar li{
+        margin: 0 15px;
+        font-size: 19px;
+    }
+    .copy-header{
+        margin: 0; 
+        max-width: none;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .item-wrapper{
+        flex: 1 1 25%;
+    }
+
+    .main-container{
+        width: 60vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    
+    .item-li{
+        width: 20%;
+    }
+
+    .row{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .col-md-6{
+        width: 50%;
+    }
+    .col-md-12{
+        width: 100%;
+    }
+
+    .categorias-interes{
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+    }
+    .categorias-interes li{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .login{
+        width: 50vw!important;
+    }
+    
+
+}
