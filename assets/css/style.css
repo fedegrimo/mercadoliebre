@@ -21,11 +21,11 @@ body{
     font-size: 18px;
     margin: auto;
 }
-.logo{
-    width: 200px;
-    text-align: center;
-    box-sizing: border-box;
+
+.main-header-top-bar a, .main-header-top-bar h2{
+    flex-grow: 1;
 }
+
 .copy-header{
     font-weight: 400;
     text-align: center;
@@ -47,6 +47,7 @@ body{
     color: #222222;
     text-decoration: none;
 }
+
 .list-category{
     display: flex;
     flex-flow: wrap;
@@ -385,6 +386,7 @@ footer p{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        align-items: center;
     }
     .copy-header{
         max-width: 350px;
@@ -428,7 +430,7 @@ footer p{
 
 @media (min-width:1200px){
     .logo{
-        max-width: 200px;
+        max-width: 150px;
     }
     
     .main-header-top-bar, .main-navbar{

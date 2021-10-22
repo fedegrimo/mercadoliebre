@@ -21,6 +21,6 @@ server.get("/login",(req,res)=>{
 });
 
 server.listen(PORT,()=>{
-    console.log("el servidor inicio ok....!!!");
+    console.log("el servidor inicio correctamente....!!!");
 });
 
