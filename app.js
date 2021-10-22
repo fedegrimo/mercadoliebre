@@ -2,10 +2,11 @@ const express = require("express");
 const server = express();
 const path = require("path");
 server.use("/assets",express.static("assets"));
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 const HOME_PAGE = '/views/index.html';
 const REGISTER_PAGE = '/views/register.html';
 const LOGIN_PAGE = '/views/login.html';
+
 
 
 server.get("/",(req,res)=>{
